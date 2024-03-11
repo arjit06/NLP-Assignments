@@ -1,0 +1,3 @@
+T,o,ken,i,z,ation$,is$,the$,proc,ess$,of$,brea,king$,down$,a$,se,qu,ence$,of$,tex,t$,into$,s,maller$,un,its$,called$,to,ken,s,,,$,which$,can$,be$,wor,d,s,,,$,p,h,rases,,,$,or$,even$,in,di,vi,du,al$,charac,ter,s,.,$
+T,o,ken,i,z,ation$,is$,of,ten$,the$,fir,st$,step$,in$,n,atural$,l,angu,ages$,proc,es,sing$,tas,ks$,su,ch$,as$,tex,t$,cl,as,si,fication,,,$,n,amed$,en,tity$,re,co,g,n,ition,,,$,and$,sen,timent$,an,al,y,sis,.,$
+T,he$,resul,ting$,to,ken,s$,are$,t,y,p,ically$,used$,as$,in,pu,t$,to$,fur,ther$,proc,es,sing$,step,s,,,$,su,ch$,as$,v,e,c,tori,z,ation,,,$,where$,the$,to,ken,s$,are$,con,ver,ted$,into$,n,u,merical$,represen,tations$,for$,machine$,lear,ning$,mo,del,s$,to$,use,.,$
