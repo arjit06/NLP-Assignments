@@ -34,7 +34,6 @@ Implementation of RNN-based sequence tagging models using the above datasets  in
 <li> Model 2: Using LSTM network </li>
 <li> Model 3: Using GRU network </li>
 </ol>
-<br>
 
 In each of these setups, three different pre-trained word embeddings were used: word2vec, GloVe, and fasttext in the embedding layer of the networks and total of nine models were trained for each dataset.
 <br><br>
@@ -53,7 +52,7 @@ The following plots for every model were generated:
 
 
 The following were the results of the implementations:- <br>
-<b><u>Dataset 1: Named EntitY Recognition</u></b>
+<b><u>Dataset 1: Named Entity Recognition</u></b>
 
 <table>
   <tr>
@@ -65,74 +64,74 @@ The following were the results of the implementations:- <br>
   <tr>
     <td>Vanilla RNN</td>
     <td>Word2Vec</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.61</td>
+    <td>93.7%</td>
   </tr>
   <tr>
     <td>LSTM</td>
     <td>Word2Vec</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.62</td>
+    <td>94%</td>
   </tr>
   <tr>
     <td>GRU</td>
     <td>Word2Vec</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.64</td>
+    <td>94%</td>
   </tr>
   <tr>
     <td>Bi-LSTM CRF</td>
     <td>Word2Vec</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.74</td>
+    <td>96%</td>
   </tr>
   <tr>
     <td>Vanilla RNN</td>
     <td>Glove</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.64</td>
+    <td>94%</td>
   </tr>
   <tr>
     <td>LSTM</td>
     <td>Glove</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.56</td>
+    <td>93%</td>
   </tr>
   <tr>
     <td>GRU</td>
     <td>Glove</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.56</td>
+    <td>93%</td>
   </tr>
   <tr>
     <td>Bi-LSTM CRF</td>
     <td>Glove</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.66</td>
+    <td>95%</td>
   </tr>
   <tr>
     <td>Vanilla RNN</td>
     <td>FastText</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.68</td>
+    <td>96%</td>
   </tr>
   <tr>
     <td>LSTM</td>
     <td>FastText</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.69</td>
+    <td>96%</td>
   </tr>
   <tr>
     <td>GRU</td>
     <td>FastText</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.68</td>
+    <td>95%</td>
   </tr>
   <tr>
     <td>Bi-LSTM CRF</td>
     <td>FastText</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.77</td>
+    <td>96%</td>
   </tr>
 </table>
 
@@ -150,73 +149,73 @@ The following were the results of the implementations:- <br>
   <tr>
     <td>Vanilla RNN</td>
     <td>Word2Vec</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.54</td>
+    <td>77%</td>
   </tr>
   <tr>
     <td>LSTM</td>
     <td>Word2Vec</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.52</td>
+    <td>77%</td>
   </tr>
   <tr>
     <td>GRU</td>
     <td>Word2Vec</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.5</td>
+    <td>77%</td>
   </tr>
   <tr>
     <td>Bi-LSTM CRF</td>
     <td>Word2Vec</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.76</td>
+    <td>95%</td>
   </tr>
   <tr>
     <td>Vanilla RNN</td>
     <td>Glove</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.55</td>
+    <td>77%</td>
   </tr>
   <tr>
     <td>LSTM</td>
     <td>Glove</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.54</td>
+    <td>77%</td>
   </tr>
   <tr>
     <td>GRU</td>
     <td>Glove</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.55</td>
+    <td>77%</td>
   </tr>
   <tr>
     <td>Bi-LSTM CRF</td>
     <td>Glove</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.77</td>
+    <td>97%</td>
   </tr>
   <tr>
     <td>Vanilla RNN</td>
     <td>FastText</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.54</td>
+    <td>77%</td>
   </tr>
   <tr>
     <td>LSTM</td>
     <td>FastText</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.55</td>
+    <td>77%</td>
   </tr>
   <tr>
     <td>GRU</td>
     <td>FastText</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.54</td>
+    <td>77%</td>
   </tr>
   <tr>
     <td>Bi-LSTM CRF</td>
     <td>FastText</td>
-    <td>0.1</td>
-    <td>10%</td>
+    <td>0.74</td>
+    <td>97%</td>
   </tr>
 </table>
