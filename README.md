@@ -51,7 +51,8 @@ The following plots for every model were generated:
 <br><br>
 
 
-The following were the results of the implementations:- <br>
+The following were the results of the implementations:- 
+<br>
 <b><u>Dataset 1: Named Entity Recognition</u></b>
 
 <table>
