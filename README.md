@@ -220,3 +220,45 @@ The following were the results of the implementations:-
     <td>97%</td>
   </tr>
 </table>
+
+<br><br><br>
+
+## Assignment 3: Text Similarity and Machine Translation
+
+### Task 1
+The task was to calculate the similarity score between two sentences. 2 approaches were followed for the same. The first setup made use of a pre-trained BERT checkpoint and did a regression on the values. The second setup made use of Sentence BERT and Sentence Transformers along with Cosine Similarity Loss function to calculate the similarity score.
+![image](https://github.com/arjit06/NLP-Assignments/assets/108218688/7ec7224a-88a1-416c-9a2c-1c89f152a332)
+<br><br>
+
+### Task 2 
+This task consisted of the WMT 2016 dataset for translation from German to English. It is part of the Workshop on Machine Translation. Again two setups were done for this, the first one being a custom encoder-decoder model and the second one being a fine-tuned version of the T5 model.
+
+<br><br><br>
+
+## Assignment 4: Emotion Recognition in conversations and Emotion Flip Reasoning 
+
+### ERC 
+Emotion Recognition in Conversation (ERC) is a specialized field that focuses on automatically
+identifying and interpreting the emotional states expressed by individuals during conversations.
+Unlike traditional approaches that analyze emotions in isolated text, ERC aims to understand
+the nuanced emotional dynamics in conversational exchanges involving multiple speakers. It
+enables a deeper understanding of emotional processes and interactions, benefiting
+applications such as conversational agents and affective computing systems.
+<br><br>
+
+### EFR 
+In pursuit of this objective, the paper introduces a new challenge named EmotionFlip Reasoning
+(EFR) in conversational analysis. This task aims to identify all utterances within a dialogue that
+cause a speaker's emotional state to change. It is important to note that while some emotional
+shifts may be prompted by other speakers, there are instances where an individual's own
+utterance can serve as the catalyst for this change. The formal definition of the task is as follows:- 
+![image](https://github.com/arjit06/NLP-Assignments/assets/108218688/2e533255-5e39-4e6d-a9e2-a223bf168e1c)
+<br><br>
+
+An example illustrating the two tasks is as follows:-
+![image](https://github.com/arjit06/NLP-Assignments/assets/108218688/1e62ebb0-4116-4c42-89cc-1e8caff1cc14)
+<br><br>
+
+### MODEL ARCHITECTURES AND APPROACHES
+For the ERC task, a window of size 5 was defined, and each utterance was concatenated with its previous 5 utterances for context. After this, BERT and FastText embeddings were used along with a classification head/ GRU for the final output. A max F1 score of 0.98 was achieved. <br><br>
+The EFR task was a sequence labeling task. Each utterance was concatenated with the last utterance (the target) and the previous utterance by the same speaker for context. After this a similar approach was followed as in ERC. A max F1 score of 0.85 was achieved. 
